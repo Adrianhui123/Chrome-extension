@@ -1,0 +1,22 @@
+{
+    "name": "Daily puzzles",
+    "description": "Random puzzles from the Guardians when you open up a new tab",
+    "version": "0.1",
+    "manifest_version": 3,
+    "icons":{
+        "16": "Image/16.png",
+        "32":"Image/32.png",
+        "48":"Image/48.png",
+        "128":"Image/128.png"},
+    "action":{
+        "default_icon":{
+        "16": "Image/16.png",
+        "32":"Image/32.png",
+        "48":"Image/48.png",
+        "128":"Image/128.png"
+        }
+    },
+    "chrome_url_overrides":{
+        "newtab" : "newtab.html"
+    }
+}
